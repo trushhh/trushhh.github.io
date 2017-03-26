@@ -1,0 +1,443 @@
+@font-face{
+	font-family:Gotham Bold;
+	src:url(rounded/bold/gothamrounded-bold-webfont.eot),
+		url(rounded/bold/gothamrounded-bold-webfont.woff) format('woff'),
+		url(rounded/bold/gothamrounded-bold-webfont.ttf) format('truetype'),
+		url(rounded/bold/gothamrounded-bold-webfont.svg) format('svg');
+	font-weight: normal;
+}
+@font-face{
+	font-family:Gotham Book;
+	src:url(rounded/book/gothamrounded-book-webfont.eot),
+		url(rounded/book/gothamrounded-book-webfont.woff) format('woff'),
+		url(rounded/book/gothamrounded-book-webfont.ttf) format('truetype'),
+		url(rounded/book/gothamrounded-book-webfont.svg) format('svg');
+	font-weight: normal;
+}
+@font-face{
+	font-family:Gotham Light;
+	src:url(rounded/light/gothamrounded-light-webfont.eot),
+		url(rounded/light/gothamrounded-light-webfont.woff) format('woff'),
+		url(rounded/light/gothamrounded-light-webfont.ttf) format('truetype'),
+		url(rounded/light/gothamrounded-light-webfont.svg) format('svg');
+	font-weight: normal;
+}
+@font-face{
+	font-family:Gotham Medium;
+	src:url(rounded/medium/gothamrounded-medium-webfont.eot),
+		url(rounded/medium/gothamrounded-medium-webfont.woff) format('woff'),
+		url(rounded/medium/gothamrounded-medium-webfont.ttf) format('truetype'),
+		url(rounded/medium/gothamrounded-medium-webfont.svg) format('svg');
+	font-weight: normal;
+}
+@font-face{
+	font-family:Gotham Medium Italic;
+	src:url(rounded/mediumitalic/gothamrounded-mediumitalic-webfont.eot),
+		url(rounded/mediumitalic/gothamrounded-mediumitalic-webfont.woff) format('woff'),
+		url(rounded/mediumitalic/gothamrounded-mediumitalic-webfont.ttf) format('truetype'),
+		url(rounded/mediumitalic/gothamrounded-mediumitalic-webfont.svg) format('svg');
+	font-weight: normal;
+}
+
+body {
+	width: 1280px;
+	margin: auto;
+}
+#header {
+	margin-top: -16px;
+	background-image: url(images/Header.jpg);
+	height: 745px;
+	position: relative;
+	align-content: center;
+}
+#menu {
+	position: relative;
+	margin-left: 183px;
+}
+.menuitem {
+	font-family: Gotham Bold;
+	display:inline-block;
+	font-weight: bold;
+	font-size: 15.5px;
+	margin-right:48px; 
+	margin-left:48px;
+	margin-top: 40px; 
+	align-content: center;
+	letter-spacing: 3px;
+}
+.menuitem:nth-child(1) {
+	margin-right: 10px;
+}
+.menuitem:nth-child(2) {
+	margin-right: 46px;
+}
+.menuitem:nth-child(3) {
+	margin-left:50px;
+}
+.menuitem:nth-child(4) {
+	margin-left:45px;
+}
+.menuitem:nth-child(5) {
+	margin-left:23px;
+	letter-spacing: 2.5px;
+}
+img {
+	margin-bottom: -10px; 
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+#title {
+	margin-top: 240px;
+	color: white;
+	text-align: center;
+}
+#life {
+	font-family: Gotham Bold;
+	font-size: 35px;
+	margin-left: 7px;
+	margin-bottom: -5px;
+	letter-spacing: 6.4px;
+}
+#print {
+	font-family:Gotham Medium; 
+	font-weight: normal;
+	margin-top: 8.5px;
+	margin-left: 2px;
+	font-size: 16.3px;
+	letter-spacing: 2.45px;
+}
+#button {
+	font-family: Gotham Bold;
+	display: inline-block;
+	height:49px;
+	width:166px;
+	border: none;
+	color: white;
+	font-size: 11.5px;
+	letter-spacing: 2.25px;
+	background-color: #16a085;
+	text-align: center;
+	margin:auto;
+	margin-top: 7px;
+	border-radius:3.5px;
+	padding-top: 5px;
+	padding-right: 3px;
+}
+ul {
+	list-style-type:none;
+}
+#icons {
+	margin-left: 545px;
+	margin-top: 218px;
+	
+}
+.icon {
+	display:inline-block;
+	margin-left: 6px;
+	margin-right:6px;
+}
+#second {	
+	position: relative;
+	height: 492px;
+	background-color: #f5f6f7;
+	overflow:hidden;
+	
+	padding-left: 129px;
+	background-image: url(images/handandphone.png);
+	background-repeat: no-repeat;
+	background-position: 465px 89px;
+}
+.title1 {
+	font-family: Gotham Bold;
+	color: #16a085;
+	font-size: 17.4px;
+	margin-top: 107.5px;
+	text-transform: uppercase;
+	letter-spacing: 3.2px;
+	line-height: 22px;
+}
+.text {
+	font-family: Gotham Book;
+	margin-left: -1px;
+	font-weight: normal;
+	margin-top: 38px;
+	color: #373737;
+	letter-spacing: 1.879px;
+	font-size: 12px;
+	line-height: 24px;
+}
+.bold {
+	font-weight: bold;
+	letter-spacing: 2.1px;
+}
+.buttons {
+	margin-top:29px;
+	font-family: Gotham Bold;
+	display: inline-block;
+	height:51px;
+	width:192px;
+	border: none;
+	color: white;
+	font-size: 11.5px;
+	letter-spacing: 2.25px;
+	background-color: #16a085;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius:3.5px;
+	padding-top: 7px;
+	padding-right: 5px;
+}
+
+
+
+
+#third {
+	height: 558px;
+	background-color: #ffffff;
+	overflow:hidden;
+}
+#phone {
+	float: left;
+	margin-top: 114px;
+}
+#textarea {
+	margin-left: 766px;
+	margin-top: 142px;
+}
+#text1{
+	margin-left: 3px;
+	margin-top: 34px;
+	line-height: 22px;
+}
+#button1{
+	margin-top:25px;
+	border-radius:0px;
+	margin-left: 1px;
+	padding-top: 1px;
+	padding-right: 8px;
+}
+#data {
+	margin-left: 1px;
+	margin-top:41px;
+	font-family: Gotham Bold;
+	font-size: 13.3px;
+	letter-spacing: 0.9px;
+	color: #373737;
+	margin-bottom: 0px;
+}
+.angles {
+	display: inline-block;
+}
+.angle {
+	margin-right: 18px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+#fourth {
+	height: 484px;
+	background-color: #f5f6f7;
+}
+#secondImg {
+	float: right;
+	margin-top: 6px;
+	margin-right: 129px;
+}
+#firstImg {
+	float: right;
+	margin-top: 6px;
+	margin-right: 24px;
+}
+#angles1{
+	margin-top: 95px;
+	margin-left: 1097px
+}
+
+.angle1 {
+	float: right;
+	margin-left: 16px;
+	margin-bottom: 0px; 
+}
+#block {
+	margin-left: 47px;
+	margin-top:50px;
+	text-align: center;
+	color: #373737;
+}
+#com {
+	font-family: Gotham Bold;
+	text-transform: uppercase;
+	font-size: 16.35px;
+	letter-spacing: 2.1px;
+	margin-top: 31px;
+	margin-left: 2px;
+}
+#lor {
+	font-family: Gotham Medium;
+	font-size: 9px;
+	letter-spacing: 2.1px;
+	line-height: 12px;
+	margin-top:19px;
+	margin-left: 5px;
+}
+
+#fifthy {
+	height: 789px;
+	background-image: url(images/foto.jpg);
+	background-repeat: no-repeat;
+
+}
+.hide {
+	margin-top: 0px;
+	visibility: hidden;
+}
+#sub {
+	text-align: center;
+	margin-top: 325px;
+	margin-left: 6px;
+	font-family: Gotham Bold;
+	font-size: 24px;
+	letter-spacing: 3.8px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+#email{
+	display: inline-block;
+	margin-left: 467px;
+	margin-top: 3px;
+}
+#textfield {
+	font-family: Gotham Medium;
+	width: 259px;
+	height: 58px;
+	font-size: 16px;
+	letter-spacing: 2.6px;
+	color: #373737;
+	text-transform: uppercase;
+	padding-left: 21px;
+	border: none;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius:3px;
+}
+#check {
+	float: right;
+	margin: auto;
+	background-color:#16a085;
+	height: 60px;
+	width: 63px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius:3px;
+}
+#checkimg {
+	margin-left:23px;
+	margin-top:24px;
+}
+
+
+
+
+
+#sixth {
+	height: 396px;
+	background-color: #f5f6f7;
+	text-align: center;
+	text-transform: uppercase;
+	color: #373737;
+}
+#down {
+	margin-top: 68px;
+	margin-left: 3px;
+	font-family: Gotham Bold;
+	letter-spacing: 4px;
+
+}
+#lorem {
+	font-family: Gotham Medium;
+	margin-top: -14px;
+	margin-left: 2px;
+	letter-spacing: 1.9px;
+	font-size: 12px;
+	line-height: 22px;
+
+}
+.btn {
+	font-family: Gotham Bold;
+	text-transform: uppercase;
+	color: #ffffff;
+	border:none;
+	background-color: #1abc9c;
+	margin-top: 29px;
+	margin-right:12px;
+	margin-left:10px;
+	height: 56px;
+	width: 296px;
+	padding: 0px;
+	font-size: 18px;
+	border-radius: 3px;
+}
+.store {
+	float: right;
+	margin-top: -40px;
+	width: 56px;
+	height: 56px;
+	background-color: #16a085;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius:3px;
+}
+#appleimg {
+	margin-top: 16px;
+}
+#playimg {
+	margin-top: 14px;
+	margin-left: 1px;
+}
+#apple {
+	text-align: left;
+	margin: 0px;
+	padding-top: 18px;
+	margin-left: 24px;
+	font-size: 16px;
+	letter-spacing: 2.5px;
+}
+#play {
+	text-align: left;
+	margin: 0px;	
+	padding-top: 16px;
+	margin-top: 1px;
+	margin-left: 32px;
+	font-size: 17px;
+	letter-spacing: 3.3px;
+}
+
+#footer {
+	color: #373737;
+	height: 130px;
+	background-color: #ffffff;
+	font-family: Gotham Bold;
+}
+#lastimg {
+	float: right;
+	margin-right:129px; 
+	margin-top:-5px;
+}
+.stick {
+	color: #16a085;
+}
+#info {
+	text-transform: uppercase;
+	margin-left:126px; 
+	margin-top:43px;
+	font-size: 13px;
+	letter-spacing: 2.88px;
+}
+#copy {
+	margin-left:127px; 
+	margin-top:18px;
+	font-size: 13px;
+	letter-spacing: 2.75px;
+}
+.links {
+	color: #373737;
+}
