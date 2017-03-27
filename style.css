@@ -377,15 +377,7 @@ ul {
 	padding: 0px;
 	font-size: 18px;
 	border-radius: 3px;
-}
-.store {
-	float: right;
-	margin-top: -40px;
-	width: 56px;
-	height: 56px;
-	background-color: #16a085;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius:3px;
+	text-align: left;
 }
 #apple {
 	text-align: left;
@@ -407,10 +399,18 @@ ul {
 	background-image: url(images/applebtn.png);
 	background-repeat: no-repeat;
 	background-position: -2px 0px;
+	padding-left: 24px;
+	padding-top: 5px;
+	font-size: 16px;
+	letter-spacing: 2.5px;
 }
 #playbtn {
 	background-image: url(images/playbtn.png);
 	background-repeat: no-repeat;
+	padding-left: 31px;
+	font-size: 17px;
+	letter-spacing: 3.4px;
+	padding-top: 4px;
 }
 
 
