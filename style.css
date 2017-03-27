@@ -1,3 +1,4 @@
+
 @font-face{
 	font-family:Gotham Bold;
 	src:url(rounded/bold/gothamrounded-bold-webfont.eot),
@@ -386,30 +387,36 @@ ul {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius:3px;
 }
-#appleimg {
-	margin-top: 16px;
-}
-#playimg {
-	margin-top: 14px;
-	margin-left: 1px;
-}
 #apple {
 	text-align: left;
 	margin: 0px;
-	padding-top: 18px;
+	padding-top: 5px;
 	margin-left: 24px;
 	font-size: 16px;
 	letter-spacing: 2.5px;
 }
 #play {
 	text-align: left;
-	margin: 0px;	
-	padding-top: 16px;
-	margin-top: 1px;
+	margin: 0px;
+	margin-top: 3px;	
 	margin-left: 32px;
 	font-size: 17px;
 	letter-spacing: 3.3px;
 }
+#applebtn {
+	background-image: url(images/applebtn.png);
+	background-repeat: no-repeat;
+	background-position: -2px 0px;
+}
+#playbtn {
+	background-image: url(images/playbtn.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
 
 #footer {
 	color: #373737;
